@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+}
+
+body {
+  padding: 2rem 3rem;
+  background-color: #fffdde;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #888;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.2rem;
+}
+
+ul li {
+  list-style: square inside;
+}
+
+ol li {
+  list-style: decimal inside;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+h2 {
+  margin: 1.4rem 0 1rem 0;
+}
+
+h3 {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.description {
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.home-link {
+  margin: 1rem 0;
+  text-align: center;
+}
+.home-link a {
+  font-size: 1.2rem;
+  color: #ff5100;
+}
